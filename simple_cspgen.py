@@ -18,7 +18,7 @@ requirement_msg = """
     +–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––+
     |  This program requires the libraries "secrets" and "clipboard".       |
     |  Both can be installed using pip. You may use the following command:  |
-    |  pip install clipboard secrets                                        |
+    |  pip install clipboard python-secrets                                 |
     +–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––+
 """
 try:
@@ -50,8 +50,9 @@ def showhelp():
     |                                                                                              |
     |   This program is a very basic random password generator written in Python 3.                |
     |   It relies on the secrets library for cryptographically safe randomness.                    |
-    |   Both the secrets and the clipboard library are required: pip install clipboard secrets     |
-    |   By default, the generated password is stored in the clipboard (check parameters below)     |
+    |   By default, the generated password is stored in the clipboard (check parameters below).    |
+    |   Both the secrets and the clipboard library are required:                                   |
+    |   pip install clipboard python-secrets                                                       |
     |                                                                                              |
     |   How to use:                                                                                |
     |   python simple_cspgen.py [password-length] [additional parameters]                          |
