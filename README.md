@@ -7,7 +7,7 @@ Also you are free to choose whether to use special characters during password cr
 
 ## Requirements
 - [Python 3](https://www.python.org/downloads/)
-- `pip install clipboard secrets`
+- `pip install clipboard python-secrets`
 
 ## How to use
 `python simple_cspgen.py `[`characters`]` `[`other_parameters_in_any_order`]`
@@ -42,7 +42,7 @@ Also you are free to choose whether to use special characters during password cr
 
 `0`: no error  
 `1`: unexpected error  
-`2`: module import failed, check if secrets and clipboard are installed correctly (`pip install clipboard secrets`)  
+`2`: module import failed, check if secrets and clipboard are installed correctly (`pip install clipboard python-secrets`)  
 `3`: no output defined, generated password will be dumped (fix by not using the `n` parameter without the `o` parameter)
 
 ### Additional points
