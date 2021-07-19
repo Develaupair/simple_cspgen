@@ -12,7 +12,8 @@ Also you are free to choose whether to use special characters during password cr
 ## How to use
 `python simple_cspgen.py `[`characters`]` `[`other_parameters_in_any_order`]`
 
-On Linux (Debian, Ubuntu, Kali, ...), you can use `pwgen.sh` (the parameters remain the same).
+On Linux (Debian, Ubuntu, Kali, ...), you can use `pwgen.sh` instead (the parameters remain the same).  
+On Windows, you can use `pwgen.bat` instead (the parameters remain the same).
 
 ### Parameters:
 `characters` - simply the number (positive integer) of characters the password should have (default=16)  
@@ -51,4 +52,4 @@ On Linux (Debian, Ubuntu, Kali, ...), you can use `pwgen.sh` (the parameters rem
 - The program is very rudimentary.
 - The parameter system is very rudimentary.
 - If you feel offended by any of these points, please feel free to contribute ;)
-- If you are for some reason using this program to create very large passwords (thousands of digits or more), you may want to use the `f` parameter. Otherwise you might be overwhelmed by the excitement of facing exponential runtime...
+- If you are for some reason using this program to create very large passwords (thousands of digits or more), you may want to use the `f` parameter. Otherwise you might be overwhelmed by the excitement of facing exponential(ish) runtime...
