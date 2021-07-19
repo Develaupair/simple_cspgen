@@ -42,7 +42,8 @@ Also you are free to choose whether to use special characters during password cr
 
 `0`: no error  
 `1`: unexpected error  
-`2`: no output defined, generated password will be dumped (fix by not using the `n` parameter without the `o` parameter)
+`2`: module import failed, check if secrets and clipboard are installed correctly (`pip install clipboard secrets`)  
+`3`: no output defined, generated password will be dumped (fix by not using the `n` parameter without the `o` parameter)
 
 ### Additional points
 - The program is very rudimentary.
